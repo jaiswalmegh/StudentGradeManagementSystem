@@ -1,0 +1,53 @@
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# IDE Settings
+.vscode/
+.idea/
+*.iml
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python Packaging
+build/
+dist/
+*.egg-info/
+
+# Test and Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+logs/
+
+# Temporary Files
+*.tmp
+*.bak
+*.swp
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Local Database Backups
+database/*.db-journal
+database/*.db-wal
+database/*.db-shm
